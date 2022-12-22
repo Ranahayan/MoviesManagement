@@ -7,7 +7,7 @@ import { getMovies } from "./fakeMovieService";
 import _ from "lodash";
 import { Link } from "react-router-dom";
 
-class Train extends Component {
+class Movies extends Component {
   state = {
     movies: [],
     pageSize: 4,
@@ -142,4 +142,4 @@ class Train extends Component {
   };
 }
 
-export default Train;
+export default Movies;
